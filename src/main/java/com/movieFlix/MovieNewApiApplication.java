@@ -8,6 +8,7 @@ public class MovieNewApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MovieNewApiApplication.class, args);
+
 	}
 
 }
