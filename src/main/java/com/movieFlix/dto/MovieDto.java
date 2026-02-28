@@ -14,7 +14,7 @@ public class MovieDto {
 
     private Integer movieId;
 
-    @NotBlank(message = "Please   provide movie title!")
+    @NotBlank(message = "Please provide movie title!")
     private String title;
 
     @NotBlank(message = "Please provide movie director!")
