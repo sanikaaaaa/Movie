@@ -11,6 +11,7 @@ import org.springframework.util.StreamUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -42,8 +43,5 @@ public class FileController {
         StreamUtils.copy(resourceFile,response.getOutputStream());
     }
 
-
-
 }
-
 
